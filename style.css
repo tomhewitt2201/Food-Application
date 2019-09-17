@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: verdana, arial, sans-serif;
+    font-size: 3.4em;
+    color: #363639;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 60%;
+    max-width: 588px;
+}
+button {
+    height: 200px;
+    width: 90%;
+    border-radius: 20px;
+    font-size: inherit;
+    margin: 0 auto;
+    display: block;
+    color: inherit;
+}
+button:hover {
+    cursor: pointer;
+}
+ul,
+h2 {
+    font-size: 0.5em;
+    display: block;
+    margin: 10px auto;
+}
+h2 {
+    border-bottom: 2px solid #363639;
+    display: inline-block;
+    
+}
+ul {
+    list-style-position: inside;
+    padding: 10px 0;
+}
